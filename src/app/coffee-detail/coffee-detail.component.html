@@ -1,0 +1,22 @@
+<!-- <p>
+  coffee-detail works!
+</p> -->
+
+<p> {{ id }} </p> <!-- this will show the id number of the list item.  1, 2, 3, etc.... -->
+<h3> {{ myCoffee.name }} </h3>
+<h3> {{ myCoffee.source }} </h3>
+<h3> {{ myCoffee.flavor }} </h3>
+
+<!-- why am i getting errors?  it works.... but...
+CoffeeDetailComponent.html:5 ERROR TypeError: Cannot read property 'name' of undefined
+    at Object.eval [as updateRenderer] (CoffeeDetailComponent.html:6)
+    at Object.debugUpdateRenderer [as updateRenderer] (core.js:22503)
+    at checkAndUpdateView (core.js:21878)
+    at callViewAction (core.js:22114)
+    at execComponentViewsAction (core.js:22056)
+    at checkAndUpdateView (core.js:21879)
+    at callViewAction (core.js:22114)
+    at execEmbeddedViewsAction (core.js:22077)
+    at checkAndUpdateView (core.js:21874)
+    at callViewAction (core.js:22114)
+   -->

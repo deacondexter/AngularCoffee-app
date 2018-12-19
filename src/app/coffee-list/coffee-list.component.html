@@ -1,0 +1,20 @@
+<!-- <ul>
+  <li *ngFor="let c of coffee">{{ c.name }}</li>
+</ul> -->
+<!-- the above gives me just the name....below it makes the name a link -->
+
+
+<!-- <ul>
+  <li *ngFor="let c of coffee">
+    <a [routerLink]="[]"> {{ c.name }} </a>
+  </li>
+</ul> -->
+<!-- left the array blank just because..well, bc Ammon did and then came back to it -->
+
+
+
+<ul>
+  <li *ngFor="let c of coffee">
+    <a [routerLink]="['/details', c.id ]"> {{ c.name }} </a>
+  </li>
+</ul>

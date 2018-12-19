@@ -1,0 +1,8 @@
+X1: use cli to make new app
+2: json database file
+2A: json-server
+3: read items from database
+3A: list component
+3B: service
+4: item details
+4A: detail component

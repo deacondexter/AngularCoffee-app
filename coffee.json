@@ -1,0 +1,16 @@
+{
+    "coffee": [
+        {
+            "id": 1,
+            "name": "thunderbolt",
+            "source": "olympus",
+            "flavor": "really zappy"
+        },
+        {
+            "id": 2,
+            "name": "gargamel",
+            "source": "forest",
+            "flavor": "like several apples"
+        }
+    ]
+}
